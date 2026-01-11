@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Virtual env
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Builds / binaries
+dist/
+build/
+*.exe
+desktop/dist/
+desktop/build/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Chrome driver
+.chromedriver/
+
+# App specific
+.env                    # API ключи!
+.history/               # Если папка истории
+*.sqlite3              # Если БД
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporary
+*.tmp
+*.bak
+*.swp
