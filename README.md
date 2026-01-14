@@ -248,9 +248,9 @@ ai-web-parser-analyst/
 
 ---
 
-## 📝 Лицензия
+## 📄 Лицензия
 
-MIT License
+MIT License — подробности в файле [LICENSE](LICENSE)
 
 ---
 
