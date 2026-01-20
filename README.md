@@ -85,7 +85,7 @@ cp env.example.txt .env
 python run.py
 ```
 
-**После запуска доступны:**
+**После запуска доступны**
 - Web-интерфейс: http://localhost:8000
 - API документация: http://localhost:8000/docs
 
