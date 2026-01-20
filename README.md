@@ -87,7 +87,9 @@ python run.py
 
 **После запуска доступны**
 - Web-интерфейс: http://localhost:8000
-- API документация: http://localhost:8000/docs
+- API документация:
+  - Swagger UI: http://localhost:8000/docs
+  - ReDoc: http://localhost:8000/redoc
 
 ---
 
@@ -208,14 +210,6 @@ pyinstaller --onefile --windowed --name CompetitorMonitor main.py
 ### Генерация отчётов (`POST /generate_report`)
 
 - Форматы: `html`, `markdown`, `pdf`
-
----
-
-## 📖 API Документация
-
-После запуска доступны:
-- **Swagger UI** http://localhost:8000/docs
-- **ReDoc** http://localhost:8000/redoc
 
 ---
 
