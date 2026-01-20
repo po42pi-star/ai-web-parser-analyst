@@ -75,7 +75,7 @@ python -m venv venv
 pip install -r requirements.txt
 
 # Настройка окружения
-cp env.example.txt .env
+cp .env.example .env
 # Откройте .env и добавьте ваш PROXY_API_KEY
 ```
 
@@ -124,7 +124,7 @@ ai-web-parser-analyst/
 ├── docs/
 │   └── images/               # Скриншоты
 ├── requirements.txt          # Backend зависимости
-├── env.example.txt           # Шаблон .env
+├── .env.example              # Шаблон .env
 ├── run.py                    # Скрипт запуска
 ├── history.json              # История (авто)
 └── README.md                 # Этот файл
